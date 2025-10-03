@@ -33,7 +33,12 @@
         line-height: 1,5;
         
     }
+    
     .header__nav{
         text-align: center;
+    }
+    .header__link{
+        display: inline-block;
+        margin-top: 1em;
     }
 }
