@@ -1,0 +1,3 @@
+@layer reset, init, design;
+
+@import url(./normalize.css) layer(reset);
