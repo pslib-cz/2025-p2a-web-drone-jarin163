@@ -53,4 +53,18 @@
         
         
     }
+    .header__intro {
+        margin-top: 10vh;
+    }
+    .button{
+        display: inline-block;
+        border-radius: .5rem;
+        padding: .75em, 2em;
+        
+    }
+    .button--light{
+        background-color: var(--secondary-color);
+        color: var(--text-color);
+        
+    }
 }
