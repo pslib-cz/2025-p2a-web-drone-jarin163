@@ -29,9 +29,22 @@
         background-color: var(--bg-color);
     }
 
+    main {
+        padding: 1rem;
+        max-width: 960px;
+        margin: 0 auto;
+
+    }
+
     h1 {
         font-size: 4rem;
         font-weight: extra-bold;
+    }
+
+    .img-fluid {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     
@@ -66,5 +79,12 @@
         background-color: var(--secondary-color);
         color: var(--text-color);
         
+    }
+    .img-block {
+        margin: 0;
+    }
+    .img-block__caption {
+        text-align: center;
+        margin-top: 0.5em;
     }
 }
