@@ -83,6 +83,13 @@
     .button--primary{
         background-color: var(--primary-color);
         color: var(--text-color);
+    
+    }
+    .list__item{
+        margin: 1rem;
+    }
+    .list__item::marker{
+        color: var(--primary-color);
     }
     .img-block {
         margin: 0;
@@ -90,5 +97,12 @@
     .img-block__caption {
         text-align: center;
         margin-top: 0.5em;
+    }
+    .heading {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+    }
+    .heading--h3 {
+        font-size: 1.125em;
     }
 }
