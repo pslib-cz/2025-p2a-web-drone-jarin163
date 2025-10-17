@@ -80,6 +80,10 @@
         color: var(--text-color);
         
     }
+    .button--primary{
+        background-color: var(--primary-color);
+        color: var(--text-color);
+    }
     .img-block {
         margin: 0;
     }
