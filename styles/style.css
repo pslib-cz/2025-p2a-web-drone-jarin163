@@ -86,7 +86,7 @@
     
     }
     .list__item{
-        margin: 1rem;
+        margin-bottom: 1em;
     }
     .list__item::marker{
         color: var(--primary-color);
